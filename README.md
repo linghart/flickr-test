@@ -17,4 +17,5 @@ $ php artisan serve
 ```
 
 Username: admin@admin.com
+
 Passord: admin
