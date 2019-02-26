@@ -1,11 +1,12 @@
 ``` bash
 
-$ git clone https://github.com/linghart/ql-laravel.git
+$ git clone https://github.com/linghart/flickr-test.git
 
-$ cd ql-laravel
+$ cd flickr-test
 $ composer install
 
-$ cp .env.example .env
+!!! configure the .env file to work correctly with the database !!!
+
 $ php artisan migrate
 $ php artisan seed
 
@@ -14,3 +15,6 @@ $ php artisan jwt:secret
 $ php artisan serve
 
 ```
+
+Username: admin@admin.com
+Passord: admin
